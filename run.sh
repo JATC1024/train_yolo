@@ -9,9 +9,9 @@ echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo "Copying all the prepared files"
 cp ../prepared_files/Makefile .
 cp ../prepared_files/prepare_train_test_file.py .
-cp ../prepared_files/my_data.cfg ./config
-cp ../prepared_files/my_data.data ./config
-cp ../prepared_files/my_data.names ./config
+cp ../prepared_files/my_data.cfg ./cfg
+cp ../prepared_files/my_data.data ./cfg
+cp ../prepared_files/my_data.names ./cfg
 echo "-------------------------------------------------------------------------------\n"
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"

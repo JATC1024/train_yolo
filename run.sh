@@ -5,7 +5,7 @@ cd darknet
 
 
 echo "Editing the Makefile"
-cp ../prepared_file/Makefile Makefile
+cp ../prepared_files/Makefile Makefile
 make
 
 

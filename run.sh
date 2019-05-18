@@ -10,9 +10,10 @@ echo "Make file"
 make
 
 
-#echo "Getting pretrained weights"
-#wget https://pjreddie.com/media/files/yolo.weights
-#./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
+echo "Getting pretrained weights"
+wget https://pjreddie.com/media/files/yolo.weights
+echo "Testing out yolo"
+./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
 
 echo "Creating train.txt and test.txt"
 python prepare_train_test_file.py

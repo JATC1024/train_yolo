@@ -32,7 +32,7 @@ gcloud auth login
 echo "Copying data"
 gsutil cp gs://jatc1024/my_data_new.zip ./data
 echo "Unzip the file"
-unzip -q my_data_new.zip ./data/my_data
+unzip -q ./data/my_data_new.zip ./data/my_data
 echo "Creating train.txt and test.txt"
 python prepare_train_test_file.py
 echo "-------------------------------------------------------------------------------\n"

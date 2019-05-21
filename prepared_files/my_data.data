@@ -1,4 +1,4 @@
-classes= 1
+classes= 256
 train  = train.txt
 valid  = test.txt
 names = my_data.names

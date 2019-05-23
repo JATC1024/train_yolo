@@ -27,12 +27,8 @@ echo "Testing out yolo"
 echo "-------------------------------------------------------------------------------\n"
 
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-echo "Login to google cloud"
-gcloud auth login
 echo "Copying data"
-gsutil cp gs://jatc1024/my_data.zip ./data
-echo "Unzip the file"
-unzip -q ./data/my_data.zip -d ./data/my_data
+cp -r ../my_data ./data/my_data
 echo "Creating train.txt and test.txt"
 python prepare_train_test_file.py
 echo "-------------------------------------------------------------------------------\n"
